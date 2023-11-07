@@ -16,6 +16,13 @@ Hannoversche Straße 1, 30001 Hannover
 **E-mail**
 mishkadong@gmail.com
 
+### Social media
+
+* [LinkedIn](https://www.linkedin.com/in/misha-dong-0aa793248/)
+* [GitHub](https://github.com/mishkadong)
+* [Instagram](https://www.instagram.com/vn_michelangelo/)
+* [Facebook](https://www.facebook.com/youngboizz/)
+
 ### Soft skills
 
 * Communication skills
