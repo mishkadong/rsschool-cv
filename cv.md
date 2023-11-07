@@ -37,6 +37,49 @@ Hannoversche Straße 1, 30001 Hannover
 * JS
 * React
 
+### Code Example
+**Task:**
+
+Given:
+```
+hero = ['Ivan'];
+native = ['York','Of'];
+destination = ['Poltava','In'];
+```
+Using loops, if/else, switch/case and methods .push(), .pop(), .unshift(), .shift(), .concat(), .splice(), .reverse() .join() :
+
+1. Combine the *destination*, *native*, *hero* arrays into a common rainbow array.
+
+2. Reverse the elements of the resulting rainbow array.
+
+3. Change/add elements of the rainbow array so that you end up with an array like 
+
+`['Richard','Of','York','Gave','Battle','In','Vain'];`
+
+4. Print the elements of the resulting array to the console as a string.
+
+**Solution:**
+```
+let hero = ["Ivan"];
+let native = ["York", "Of"];
+let destination = ["Poltava", "In"];
+let nameToDestination = [];
+hero = hero.join("").toLowerCase().split("");
+nameToDestination.push(
+  hero.find((i) => i == "v").toUpperCase(),
+  hero.find((i) => i == "a"),
+  hero.find((i) => i == "i"),
+  hero.find((i) => i == "n")
+);
+hero = nameToDestination.join("").split();
+let rainbow = [...destination, ...native, ...hero].reverse();
+rainbow.pop();
+let place = [rainbow.pop(), rainbow.shift()];
+rainbow.unshift("Richard");
+rainbow.push("Gave", "Battle");
+console.log(rainbow.concat(place).join(" "));
+```
+
 ### Education
 
 **2000 - 2011**:       Kharkiv high school
