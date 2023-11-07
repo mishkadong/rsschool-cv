@@ -1,1 +1,1 @@
-https://mishkadong.github.io/rsschool-cv/
+https://mishkadong.github.io/rsschool-cv/cv
