@@ -13,8 +13,7 @@ Hannoversche Straße 1, 30001 Hannover
 **Phone number**
 +49 1515 468 5984
 
-**E-mail**
-mishkadong@gmail.com
+**E-mail** mishkadong@gmail.com
 
 ### Social media
 
@@ -38,7 +37,7 @@ mishkadong@gmail.com
 * JS
 * React
 
-### Edukation
+### Education
 
 **2000 - 2011**:       Kharkiv high school
 
@@ -49,3 +48,10 @@ mishkadong@gmail.com
 ### Certificates
 **05.2022**:           graduated "Front-end Basic" course
 **12.2022**:           graduated "Front-end Pro" course
+
+### Languages
+
+* **ukrainian** native speaker
+* **russian** native speaker
+* **english** A2-B1
+* **german** B2
