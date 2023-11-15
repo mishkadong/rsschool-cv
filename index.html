@@ -1,12 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
-  <title>my resume</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>my resume</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <h1 class="header__title">Thanh Duc Dong</h1>
+        <h2 class="header__pos">Junior Front-end Developer</h2>
+      </div>
+      <aside class="sidebar">
+        <img src="./photo.jpeg" alt="my photo" class="photo" />
+        <section class="personal-info">
+          <h3 class="personal-info__title">Personal Info</h3>
+          <ul class="personal-info__list">
+            <li class="personal-info__item">
+              <span class="personal-info__item-name">Date of birth</span>28
+              September 1994
+            </li>
+            <li class="personal-info__item">
+              <span class="personal-info__item-name">Address</span
+              ><a
+                href="https://www.google.com/maps/place/Hannoversche+Str.+1,+30629+Hannover/@52.3901608,9.8496152,17z/data=!3m1!4b1!4m10!1m2!2m1!1z0KXQsNC90L3QvtCy0LXRgNGI0LUg0YjRgtGA0LDRgdGB0LUgMQ!3m6!1s0x47b00c11b2150271:0xa69f9b378c72523b!8m2!3d52.3901576!4d9.8544861!15sCiXQpdCw0L3QvdC-0LLQtdGA0YjQtSDRiNGC0YDQsNGB0YHQtSAxkgERY29tcG91bmRfYnVpbGRpbmfgAQA!16s%2Fg%2F11b8v4p3t7?entry=ttu"
+                class="personal-info__item-link"
+                >Hannoversche Straße 1</a
+              >, 30001 Hannover
+            </li>
+            <li class="personal-info__item">
+              <span class="personal-info__item-name">Phone number</span
+              ><a href="tel: +4915154685984" class="personal-info__item-link"
+                >+49 1515 468 5984</a
+              >
+            </li>
+            <li class="personal-info__item">
+              <span class="personal-info__item-name">E-mail</span
+              ><a
+                href="mailto:mishkadong@gmail.com"
+                class="personal-info__item-link"
+                >mishkadong@gmail.com</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="social-media">
+          <h3 class="social-media__title">Social media</h3>
+          <ul class="social-media__list">
+            <li class="social-media__item">
+              <a
+                href="https://www.linkedin.com/in/misha-dong-0aa793248/"
+                class="social-media__link"
+                >LinkedIn</a
+              >
+            </li>
+            <li class="social-media__item">
+              <a href="https://github.com/mishkadong" class="social-media__link"
+                >GitHub</a
+              >
+            </li>
+            <li class="social-media__item">
+              <a
+                href="https://www.instagram.com/vn_michelangelo/"
+                class="social-media__link"
+                >Instagram</a
+              >
+            </li>
+            <li class="social-media__item">
+              <a
+                href="https://www.facebook.com/youngboizz/"
+                class="social-media__link"
+                >Facebook</a
+              >
+            </li>
+          </ul>
+        </section>
+      </aside>
+      <div class="main-block">
+        <section class="about">
+          <h3 class="about__title">About me</h3>
+          <p class="about__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+            eaque quisquam facilis pariatur eveniet quia, ducimus cupiditate
+            vero ipsum similique exercitationem aspernatur cum sequi inventore,
+            quae aperiam quidem aliquid assumenda. Iste dolore eum ipsum debitis
+            quibusdam veritatis distinctio, excepturi nisi blanditiis cupiditate
+            quia at inventore quo id eos maxime, exercitationem ab doloribus.
+            Sit illum nisi, explicabo nostrum mollitia dolore aperiam! Similique
+            veniam necessitatibus amet ipsum, inventore officia facere
+            consectetur unde, dolorum assumenda debitis tenetur omnis maxime.
+            Amet repudiandae cumque debitis reprehenderit vel aperiam a at
+            aliquam, unde delectus molestias pariatur.
+          </p>
+        </section>
+        <section class="soft-skills">
+          <h3 class="soft-skills__title">Soft skills</h3>
+          <ul class="soft-skills__list">
+            <li class="soft-skills__item">Communication skills</li>
+            <li class="soft-skills__item">Self-organisation skills</li>
+            <li class="soft-skills__item">Creative skills</li>
+            <li class="soft-skills__item">Fast learner</li>
+            <li class="soft-skills__item">Logics and critical thinking</li>
+          </ul>
+        </section>
+        <section class="hard-skills">
+          <h3 class="hard-skills__title">Hard skills</h3>
+          <ul class="hard-skills__list">
+            <li class="hard-skills__item">HTML5</li>
+            <li class="hard-skills__item">CSS/SASS</li>
+            <li class="hard-skills__item">JS</li>
+            <li class="hard-skills__item">React</li>
+          </ul>
+        </section>
+        <section class="code-ex">
+          <h3 class="code-ex__title">Code Example</h3>
+          <span class="code-ex__subtitle">Task:</span>
+          <span class="code-ex__subtitle">Given:</span>
+          <pre class="code-ex__code"><code>
+            hero = ['Ivan'];
+            native = ['York','Of'];
+            destination = ['Poltava','In'];
+          </code></pre>
+          <p class="code-ex__text">
+            Using loops, if/else, switch/case and methods .push(), .pop(),
+            .unshift(), .shift(), .concat(), .splice(), .reverse() .join() :
+          </p>
+          <ol class="code-ex__list">
+            <li class="code-ex__item">
+              Combine the destination, native, hero arrays into a common rainbow
+              array.
+            </li>
+            <li class="code-ex__item">
+              Reverse the elements of the resulting rainbow array.
+            </li>
+            <li class="code-ex__item">
+              Change/add elements of the rainbow array so that you end up with
+              an array like
+              <pre class="code-ex__code"><code>
+                  ['Richard','Of','York','Gave','Battle','In','Vain'];
+                </code></pre>
+            </li>
+            <li class="code-ex__item">
+              Print the elements of the resulting array to the console as a
+              string.
+            </li>
+          </ol>
+          <span class="code-ex__subtitle">Solution:</span>
+          <pre class="code-ex__code"><code>
+              let hero = ["Ivan"];
+              let native = ["York", "Of"];
+              let destination = ["Poltava", "In"];
+              let nameToDestination = [];
+              hero = hero.join("").toLowerCase().split("");
+              nameToDestination.push(
+                hero.find((i) => i == "v").toUpperCase(),
+                hero.find((i) => i == "a"),
+                hero.find((i) => i == "i"),
+                hero.find((i) => i == "n")
+              );
+              hero = nameToDestination.join("").split();
+              let rainbow = [...destination, ...native, ...hero].reverse();
+              rainbow.pop();
+              let place = [rainbow.pop(), rainbow.shift()];
+              rainbow.unshift("Richard");
+              rainbow.push("Gave", "Battle");
+              console.log(rainbow.concat(place).join(" "));
+            </code></pre>
+        </section>
+        <section class="education">
+          <h3 class="education__title">Education</h3>
+          <ul class="education__list">
+            <li class="education__list-item">
+              <span class="education__list-year">2000 - 2011:</span>Kharkiv high
+              school
+            </li>
+            <li class="education__list-item">
+              <span class="education__list-year">02.2022 - 05.2022:</span>online
+              course "Front-end Basic" in Hillel IT school
+            </li>
+            <li class="education__list-item">
+              <span class="education__list-year">08.2022 - 12.2022:</span>online
+              course "Front-end Pro" in Hillel IT school
+            </li>
+          </ul>
+        </section>
+        <section class="certif">
+          <h3 class="certif__title">Certificates</h3>
+          <ul class="certif__list">
+            <li class="certif__list-item"><span class="certif__list-year">05.2022:</span>graduated "Front-end Basic" course 12.2022: graduated "Front-end Pro" course</li>
+          </ul>
+        </section>
+        <section class="lang">
+          <h3 class="section__title">Languages</h3>
+          <ul class="lang__list">
+            <li class="lang__list-item">ukrainian (native speaker)</li>
+            <li class="lang__list-item">russian (native speaker)</li>
+            <li class="lang__list-item">english A2-B1</li>
+            <li class="lang__list-item">german B2</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </body>
 </html>
